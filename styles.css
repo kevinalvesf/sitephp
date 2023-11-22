@@ -1,0 +1,132 @@
+.semnoticia {
+    text-align: center;
+    margin: 20px; /* Ajuste conforme necessário */
+}
+
+.semnoticiaa {
+    font-size: 1.2em; /* Ajuste conforme necessário */
+    color: #777; /* Cor opcional para dar destaque à mensagem */
+}
+footer{
+    text-align: center;
+}
+.containergerenciar {
+    margin: 0 auto;
+    max-width: 277px; /* Ajuste conforme necessário */
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #eb1414;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+section {
+    margin: 20px;
+    text-align: center;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+/* Estilo para exibir postagens como miniaturas */
+.post-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 20px; /* Adicionado para um espaçamento uniforme */
+}
+
+.post {
+    width: 48%; /* Alterado para permitir duas notícias lado a lado com algum espaço */
+    margin: 10px;
+    padding: 15px;
+    border: 1px solid #ddd;
+    background-color: #f9f9f9;
+    box-sizing: border-box; /* Corrige problemas de largura */
+}
+
+.post img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto; /* Centralizar a imagem dentro da div .post */
+}
+
+/* Limpar a flutuação para evitar problemas de layout */
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+/* Adicionado estilo para o formulário em criar.php */
+form {
+    display: grid;
+    gap: 10px;
+    max-width: 600px; /* Adicionado para controle de largura do formulário */
+    margin: 0 auto; /* Centralizar o formulário */
+    background-color: #f9f9f9;
+    padding: 20px;
+    border: 1px solid #ddd;
+    box-sizing: border-box;
+}
+
+label {
+    font-weight: bold;
+}
+
+textarea {
+    resize: vertical;
+    height: 150px;
+}
+
+input[type="submit"] {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
+.news-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.news-item {
+    width: 48%; /* Ajuste conforme necessário para o espaçamento desejado */
+    margin: 10px;
+    padding: 15px;
+    border: 1px solid #ddd;
+    background-color: #f9f9f9;
+    box-sizing: border-box;
+}
+
+.news-item img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
