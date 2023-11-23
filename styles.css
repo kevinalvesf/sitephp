@@ -1,20 +1,22 @@
 .semnoticia {
     text-align: center;
-    margin: 20px; /* Ajuste conforme necessário */
+    margin: 20px; 
 }
 
 .semnoticiaa {
-    font-size: 1.2em; /* Ajuste conforme necessário */
-    color: #777; /* Cor opcional para dar destaque à mensagem */
-}
-footer{
-    text-align: center;
-}
-.containergerenciar {
-    margin: 0 auto;
-    max-width: 277px; /* Ajuste conforme necessário */
+    font-size: 1.2em; 
+    color: #777; 
 }
 
+footer {
+    text-align: center;
+}
+
+.containergerenciar {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
 
 body {
     font-family: Arial, sans-serif;
@@ -46,43 +48,43 @@ button:hover {
     background-color: #45a049;
 }
 
-/* Estilo para exibir postagens como miniaturas */
+
 .post-container {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    margin: 20px; /* Adicionado para um espaçamento uniforme */
+    margin: 20px; 
 }
 
 .post {
-    width: 48%; /* Alterado para permitir duas notícias lado a lado com algum espaço */
+    width: 48%; 
     margin: 10px;
     padding: 15px;
     border: 1px solid #ddd;
     background-color: #f9f9f9;
-    box-sizing: border-box; /* Corrige problemas de largura */
+    box-sizing: border-box; 
 }
 
 .post img {
     max-width: 100%;
     height: auto;
     display: block;
-    margin: 0 auto; /* Centralizar a imagem dentro da div .post */
+    margin: 0 auto; 
 }
 
-/* Limpar a flutuação para evitar problemas de layout */
+
 .clearfix::after {
     content: "";
     clear: both;
     display: table;
 }
 
-/* Adicionado estilo para o formulário em criar.php */
+
 form {
     display: grid;
     gap: 10px;
-    max-width: 600px; /* Adicionado para controle de largura do formulário */
-    margin: 0 auto; /* Centralizar o formulário */
+    max-width: 600px; 
+    margin: 0 auto; 
     background-color: #f9f9f9;
     padding: 20px;
     border: 1px solid #ddd;
@@ -109,6 +111,7 @@ input[type="submit"] {
 input[type="submit"]:hover {
     background-color: #45a049;
 }
+
 .news-container {
     display: flex;
     flex-wrap: wrap;
@@ -116,7 +119,7 @@ input[type="submit"]:hover {
 }
 
 .news-item {
-    width: 48%; /* Ajuste conforme necessário para o espaçamento desejado */
+    width: 48%; 
     margin: 10px;
     padding: 15px;
     border: 1px solid #ddd;
@@ -130,3 +133,9 @@ input[type="submit"]:hover {
     display: block;
     margin: 0 auto;
 }
+
+.pagination {
+    display: flex;
+    margin-right: -33cm;
+}
+
