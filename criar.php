@@ -53,7 +53,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     </section>
 
     <footer>
-        <p>&copy; 2023 Site de Notícias</p>
+        <p>&copy; 2023 Fique Ligado</p>
     </footer>
 
 </body>
