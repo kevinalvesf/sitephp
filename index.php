@@ -4,12 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
-    <title>Site de Notícias</title>
+    <title>FIQUE LIGADO</title>
 </head>
 <body>
 
     <header>
-        <h1>Notícias Importantes</h1>
+        <h1>Fique Ligado</h1>
     </header>
 
     <section>
@@ -21,7 +21,7 @@
     </section>
 
     <footer>
-        <p>&copy; 2023 Site de Notícias</p>
+        <p>&copy; 2023 Fique Ligado</p>
     </footer>
 
 </body>
